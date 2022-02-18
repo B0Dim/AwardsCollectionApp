@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083858A227BF75CD00D01DC5 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083858A127BF75CD00D01DC5 /* CustomGridView.swift */; };
+		083858A427BFA74800D01DC5 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083858A327BFA74800D01DC5 /* Award.swift */; };
+		083858A627BFAB1500D01DC5 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083858A527BFAB1500D01DC5 /* VerticalGridView.swift */; };
+		083858A827BFB85100D01DC5 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083858A727BFB85100D01DC5 /* HorizontalGridView.swift */; };
 		08CB04EC27BD3A960057AAB9 /* AwardsCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB04EB27BD3A960057AAB9 /* AwardsCollectionAppApp.swift */; };
 		08CB04EE27BD3A960057AAB9 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB04ED27BD3A960057AAB9 /* StarterView.swift */; };
 		08CB04F027BD3A980057AAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CB04EF27BD3A980057AAB9 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083858A127BF75CD00D01DC5 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
+		083858A327BFA74800D01DC5 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		083858A527BFAB1500D01DC5 /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		083858A727BFB85100D01DC5 /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
 		08CB04E827BD3A960057AAB9 /* AwardsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CB04EB27BD3A960057AAB9 /* AwardsCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionAppApp.swift; sourceTree = "<group>"; };
 		08CB04ED27BD3A960057AAB9 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
@@ -42,6 +50,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083858A027BF75B700D01DC5 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				083858A127BF75CD00D01DC5 /* CustomGridView.swift */,
+				083858A327BFA74800D01DC5 /* Award.swift */,
+				083858A527BFAB1500D01DC5 /* VerticalGridView.swift */,
+				083858A727BFB85100D01DC5 /* HorizontalGridView.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
 		08CB04DF27BD3A960057AAB9 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +80,7 @@
 		08CB04EA27BD3A960057AAB9 /* AwardsCollectionApp */ = {
 			isa = PBXGroup;
 			children = (
+				083858A027BF75B700D01DC5 /* Grids */,
 				08CB04EB27BD3A960057AAB9 /* AwardsCollectionAppApp.swift */,
 				08CB04ED27BD3A960057AAB9 /* StarterView.swift */,
 				08CB04F927BD3ADD0057AAB9 /* MainView.swift */,
@@ -153,8 +173,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				08CB04FC27BD3AEA0057AAB9 /* AwardsView.swift in Sources */,
+				083858A427BFA74800D01DC5 /* Award.swift in Sources */,
+				083858A627BFAB1500D01DC5 /* VerticalGridView.swift in Sources */,
 				08CB050227BD3BE40057AAB9 /* CurvesView.swift in Sources */,
+				083858A827BFB85100D01DC5 /* HorizontalGridView.swift in Sources */,
 				08CB050027BD3BD50057AAB9 /* PathView.swift in Sources */,
+				083858A227BF75CD00D01DC5 /* CustomGridView.swift in Sources */,
 				08CB04FE27BD3BB90057AAB9 /* GradientRectangles.swift in Sources */,
 				08CB04EE27BD3A960057AAB9 /* StarterView.swift in Sources */,
 				08CB04FA27BD3ADD0057AAB9 /* MainView.swift in Sources */,
